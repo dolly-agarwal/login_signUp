@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:background="@color/black">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp">
+    </TextView>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" Email-ID  "
+        android:background="@drawable/text"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        android:id="@+id/getSignupEmail"
+        android:maxHeight="100dp"
+        android:minHeight="50dp"
+        android:maxWidth="500dp"
+        android:minWidth="250dp"
+        android:padding="4dp"
+        android:textColorHint="@color/gray"
+        android:layout_marginBottom="50dp"
+        android:gravity="center">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" Password  "
+        android:background="@drawable/text"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:maxHeight="100dp"
+        android:minHeight="50dp"
+        android:maxLines="5"
+        android:maxWidth="500dp"
+        android:id="@+id/getSignupPass"
+        android:minWidth="250dp"
+        android:padding="4dp"
+        android:paddingHorizontal="10dp"
+        android:gravity="center"
+        android:textColorHint="@color/gray"
+        android:layout_marginBottom="40dp">
+
+    </EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign-Up"
+        android:id="@+id/signup"
+        android:background="@drawable/signin">
+
+    </Button>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have account?"
+        android:id="@+id/already"
+        android:textColor="@color/white">
+
+    </TextView>
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "594179659834",
+    "project_id": "concise-memory-301807",
+    "storage_bucket": "concise-memory-301807.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594179659834:android:35cee5608195241135bd03",
+        "android_client_info": {
+          "package_name": "com.android.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594179659834-jv0chdq9j956brch3t04l5j1pna8935q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYFGgaf_sboWw8g-LePXXUtiao9A9Dnko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594179659834-jv0chdq9j956brch3t04l5j1pna8935q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
